@@ -4,9 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Player
+public class Player
 {
-    public class Player
+    private string username;
+
+    //this is the private constructor
+    private Player(string name)
     {
+        username = name;
+        //String password;  for secure access as of right now 
+    }
+
+    public void setUsername(string name)
+    {
+       username = name;
+    }
+
+    public string getUsername()
+    {
+        return username;
     }
 }
