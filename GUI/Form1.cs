@@ -8,55 +8,63 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GUI
+namespace StrategoBoardBothPlayers
 {
-    public partial class Form1 : Form
+    public partial class Stratego : Form
     {
-        public Form1()
+        public Stratego()
         {
             InitializeComponent();
         }
-
-        // class member array of Panels to track chessboard tiles
-        private Panel[,] _chessBoardPanels;
-
-        // event handler of Form Load... init things here
-        private void Form_Load(object sender, EventArgs e)
+        //The panelChanger event handlers are what control the drag and drop of the system. 
+        //With the way that they are designed, you can assign any of these handlers
+        //with the panel image drag-and-drop changes within this program.
+        private void panelChanger_MouseDown(object sender, MouseEventArgs e)
         {
-            const int tileSize = 40;
-            const int gridSize = 12;
-            var clr1 = Color.DarkGray;
-            var clr2 = Color.White;
+            Panel panelChanger = sender as Panel;
 
-            // initialize the "chess board"
-            _chessBoardPanels = new Panel[gridSize, gridSize];
-
-            // double for loop to handle all rows and columns
-            for (var n = 0; n < gridSize; n++)
+            if (panelChanger.BackgroundImage != null)
             {
-                for (var m = 0; m < gridSize; m++)
-                {
-                    // create new Panel control which will be one 
-                    // chess board tile
-                    var newPanel = new Panel
-                    {
-                        Size = new Size(tileSize, tileSize),
-                        Location = new Point(tileSize * n, tileSize * m)
-                    };
-
-                    // add to Form's Controls so that they show up
-                    Controls.Add(newPanel);
-
-                    // add to our 2d array of panels for future use
-                    _chessBoardPanels[n, m] = newPanel;
-
-                    // color the backgrounds
-                    if (n % 2 == 0)
-                        newPanel.BackColor = m % 2 != 0 ? clr1 : clr2;
-                    else
-                        newPanel.BackColor = m % 2 != 0 ? clr2 : clr1;
-                }
+                panelChanger.DoDragDrop(panelChanger.BackgroundImage, DragDropEffects.Move);
+                panelChanger.BackgroundImage = null;
             }
         }
+
+        private void panelChanger_DragEnter(object sender, DragEventArgs e)
+        {
+            Panel panelChanger = sender as Panel;
+            e.Effect = DragDropEffects.Move;
+        }
+
+        private void panelChanger_DragDrop(object sender, DragEventArgs e)
+        {
+            Panel panelChanger = sender as Panel;
+            if (panelChanger.BackgroundImage == null)
+            {
+                panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
+            }
+            else
+            {
+                throw (new Exception("Can't do that!"));
+                
+            }
+        }
+
+        private void generalToolStripMenuItem_MouseDown(object sender, MouseEventArgs e)
+        {
+            ToolStripItem menuItem = sender as ToolStripItem;
+            Panel panelChanger = new Panel();
+
+            panelChanger.BackgroundImage = menuItem.Image;
+            panelChanger.DoDragDrop(panelChanger.BackgroundImage, DragDropEffects.Move);
+            panelChanger.BackgroundImage = null;
+        }
+
+
+        //private void panelChanger_MouseMove(object sender, MouseEventArgs e)
+        //{
+        //Panel panelChanger = sender as Panel;
+        //Cursor.Current = new Cursor((Image)panelChanger.BackgroundImage);
+        //}
     }
 }

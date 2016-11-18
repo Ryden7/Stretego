@@ -7,8 +7,8 @@
     <ProjectGuid>{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GUI</RootNamespace>
-    <AssemblyName>GUI</AssemblyName>
+    <RootNamespace>StrategoBoardBothPlayers</RootNamespace>
+    <AssemblyName>StrategoBoardBothPlayers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategoBoard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategoBoardCut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrategoS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrategoF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrategoB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lilpics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego10Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego9Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego8Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego7Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego6Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego5Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stratego4Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego3Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stratego2Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategoFlagRed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategoBRed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strategoSpyRed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

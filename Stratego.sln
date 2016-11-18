@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Board", "Board\Board.csproj", "{28E8C63E-D82B-408D-A62D-D7BBD5EEF100}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Player", "Player\Player.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pieces", "Pieces\Pieces.csproj", "{8378DAD6-D9F4-42D0-8A65-4567EA29B43C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategoBoardBothPlayers", "GUI\StrategoBoardBothPlayers.csproj", "{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
