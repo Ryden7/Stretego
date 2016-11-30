@@ -12,6 +12,7 @@ namespace StrategoBoardBothPlayers
 {
     public partial class Stratego : Form
     {
+        Board board = new Board();
         public Stratego()
         {
             InitializeComponent();
@@ -42,6 +43,12 @@ namespace StrategoBoardBothPlayers
             if (panelChanger.BackgroundImage == null)
             {
                 panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
+                //This is calling the getColor method I will be making
+                string color = getColor(panelChanger);
+                //This calls the getValue method to determine the piece value
+                int pieceValue = getValue(panelChanger);
+                //This calls the board (or the logic) to create the pieces on the back end.
+                board.makePiece(panelChanger.TabIndex + 1, pieceValue, color);
             }
             else
             {
@@ -66,5 +73,16 @@ namespace StrategoBoardBothPlayers
         //Panel panelChanger = sender as Panel;
         //Cursor.Current = new Cursor((Image)panelChanger.BackgroundImage);
         //}
+
+        public int getValue(Panel panel)
+        {
+            int panelValue = 0;
+            if(panel.BackgroundImage == global::StrategoBoardBothPlayers.Properties.Resources.Stratego10 || panel.BackgroundImage == global::StrategoBoardBothPlayers.Properties.Resources.stratego10Red)
+            {
+                return 10;
+            }
+
+            return panelValue;     
+        }
     }
 }

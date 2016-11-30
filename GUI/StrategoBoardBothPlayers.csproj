@@ -161,6 +161,12 @@
   <ItemGroup>
     <None Include="Resources\strategoSpyRed.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Board\Board.csproj">
+      <Project>{28e8c63e-d82b-408d-a62d-d7bbd5eef100}</Project>
+      <Name>Board</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -7,8 +7,17 @@ using System.Threading.Tasks;
 public class Board
 {
     private int[,] gameboard;
-    public Board(int coords1, int coords2)
+    Pieces[] boardPanels = new Pieces[101];
+
+    public Board()
     {
-        gameboard = new int[coords1,coords2];
+        gameboard = new int[10,10];
+    }
+
+    //This method is called upon by the Form1.cs class to create the piece, constructing it in the Pieces class.
+    public void makePiece(int panelValue, int imageValue, string imageColor)
+    {
+        Pieces newPiece = new Pieces(imageValue, imageColor);
+        boardPanels[panelValue] = newPiece;
     }
 }
