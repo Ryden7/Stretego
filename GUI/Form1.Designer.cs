@@ -20,6 +20,8 @@
             base.Dispose(disposing);
         }
 
+        
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -110,29 +112,29 @@
             this.panel47 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel49 = new System.Windows.Forms.Panel();
-            this.panel51 = new System.Windows.Forms.Panel();
-            this.panel52 = new System.Windows.Forms.Panel();
-            this.panel53 = new System.Windows.Forms.Panel();
-            this.panel54 = new System.Windows.Forms.Panel();
-            this.panel55 = new System.Windows.Forms.Panel();
-            this.panel56 = new System.Windows.Forms.Panel();
-            this.panel57 = new System.Windows.Forms.Panel();
-            this.panel58 = new System.Windows.Forms.Panel();
-            this.panel59 = new System.Windows.Forms.Panel();
-            this.panel60 = new System.Windows.Forms.Panel();
-            this.panel61 = new System.Windows.Forms.Panel();
-            this.panel62 = new System.Windows.Forms.Panel();
-            this.panel63 = new System.Windows.Forms.Panel();
-            this.panel64 = new System.Windows.Forms.Panel();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.panel66 = new System.Windows.Forms.Panel();
-            this.panel67 = new System.Windows.Forms.Panel();
-            this.panel68 = new System.Windows.Forms.Panel();
-            this.panel69 = new System.Windows.Forms.Panel();
-            this.panel70 = new System.Windows.Forms.Panel();
-            this.panel71 = new System.Windows.Forms.Panel();
-            this.panel72 = new System.Windows.Forms.Panel();
             this.panel73 = new System.Windows.Forms.Panel();
+            this.panel72 = new System.Windows.Forms.Panel();
+            this.panel70 = new System.Windows.Forms.Panel();
+            this.panel69 = new System.Windows.Forms.Panel();
+            this.panel68 = new System.Windows.Forms.Panel();
+            this.panel67 = new System.Windows.Forms.Panel();
+            this.panel66 = new System.Windows.Forms.Panel();
+            this.panel65 = new System.Windows.Forms.Panel();
+            this.panel64 = new System.Windows.Forms.Panel();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.panel62 = new System.Windows.Forms.Panel();
+            this.panel61 = new System.Windows.Forms.Panel();
+            this.panel60 = new System.Windows.Forms.Panel();
+            this.panel59 = new System.Windows.Forms.Panel();
+            this.panel58 = new System.Windows.Forms.Panel();
+            this.panel57 = new System.Windows.Forms.Panel();
+            this.panel56 = new System.Windows.Forms.Panel();
+            this.panel55 = new System.Windows.Forms.Panel();
+            this.panel54 = new System.Windows.Forms.Panel();
+            this.panel53 = new System.Windows.Forms.Panel();
+            this.panel52 = new System.Windows.Forms.Panel();
+            this.panel51 = new System.Windows.Forms.Panel();
+            this.panel71 = new System.Windows.Forms.Panel();
             this.panel74 = new System.Windows.Forms.Panel();
             this.panel75 = new System.Windows.Forms.Panel();
             this.panel76 = new System.Windows.Forms.Panel();
@@ -253,7 +255,7 @@
             this.marshalToolStripMenuItem.Image = global::StrategoBoardBothPlayers.Properties.Resources.Stratego10;
             this.marshalToolStripMenuItem.Name = "marshalToolStripMenuItem";
             this.marshalToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.marshalToolStripMenuItem.Text = "(10) Marshal ";
+            this.marshalToolStripMenuItem.Text = "(10) Marshal";
             this.marshalToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
             // 
             // general9ToolStripMenuItem
@@ -599,7 +601,6 @@
             // 
             this.panel1.AllowDrop = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego3;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(5, 5);
             this.panel1.Name = "panel1";
@@ -613,7 +614,6 @@
             // 
             this.panel2.AllowDrop = true;
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego3;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Location = new System.Drawing.Point(53, 5);
             this.panel2.Name = "panel2";
@@ -640,7 +640,6 @@
             // 
             this.panel4.AllowDrop = true;
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego2;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Location = new System.Drawing.Point(149, 5);
             this.panel4.Name = "panel4";
@@ -654,7 +653,6 @@
             // 
             this.panel5.AllowDrop = true;
             this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego4;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Location = new System.Drawing.Point(197, 5);
             this.panel5.Name = "panel5";
@@ -668,7 +666,6 @@
             // 
             this.panel6.AllowDrop = true;
             this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego5;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Location = new System.Drawing.Point(245, 5);
             this.panel6.Name = "panel6";
@@ -682,7 +679,6 @@
             // 
             this.panel7.AllowDrop = true;
             this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego6;
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel7.Location = new System.Drawing.Point(293, 5);
             this.panel7.Name = "panel7";
@@ -696,7 +692,6 @@
             // 
             this.panel8.AllowDrop = true;
             this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoF;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Location = new System.Drawing.Point(341, 5);
             this.panel8.Name = "panel8";
@@ -710,7 +705,6 @@
             // 
             this.panel9.AllowDrop = true;
             this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego7;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel9.Location = new System.Drawing.Point(389, 5);
             this.panel9.Name = "panel9";
@@ -724,7 +718,6 @@
             // 
             this.panel10.AllowDrop = true;
             this.panel10.BackColor = System.Drawing.Color.Transparent;
-            this.panel10.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego8;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Location = new System.Drawing.Point(437, 5);
             this.panel10.Name = "panel10";
@@ -738,7 +731,6 @@
             // 
             this.panel11.AllowDrop = true;
             this.panel11.BackColor = System.Drawing.Color.Transparent;
-            this.panel11.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.stratego9;
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel11.Location = new System.Drawing.Point(5, 53);
             this.panel11.Name = "panel11";
@@ -752,7 +744,6 @@
             // 
             this.panel12.AllowDrop = true;
             this.panel12.BackColor = System.Drawing.Color.Transparent;
-            this.panel12.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoB;
             this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel12.Location = new System.Drawing.Point(53, 53);
             this.panel12.Name = "panel12";
@@ -766,7 +757,6 @@
             // 
             this.panel13.AllowDrop = true;
             this.panel13.BackColor = System.Drawing.Color.Transparent;
-            this.panel13.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoS;
             this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel13.Location = new System.Drawing.Point(101, 53);
             this.panel13.Name = "panel13";
@@ -1240,274 +1230,18 @@
             this.panel49.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
             this.panel49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
-            // panel51
+            // panel73
             // 
-            this.panel51.AllowDrop = true;
-            this.panel51.BackColor = System.Drawing.Color.Transparent;
-            this.panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel51.Location = new System.Drawing.Point(5, 245);
-            this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(40, 40);
-            this.panel51.TabIndex = 49;
-            this.panel51.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel51.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel51.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel52
-            // 
-            this.panel52.AllowDrop = true;
-            this.panel52.BackColor = System.Drawing.Color.Transparent;
-            this.panel52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel52.Location = new System.Drawing.Point(53, 245);
-            this.panel52.Name = "panel52";
-            this.panel52.Size = new System.Drawing.Size(40, 40);
-            this.panel52.TabIndex = 50;
-            this.panel52.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel52.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel52.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel53
-            // 
-            this.panel53.BackColor = System.Drawing.Color.Transparent;
-            this.panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel53.Location = new System.Drawing.Point(101, 245);
-            this.panel53.Name = "panel53";
-            this.panel53.Size = new System.Drawing.Size(40, 40);
-            this.panel53.TabIndex = 51;
-            this.panel53.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel53.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel54
-            // 
-            this.panel54.BackColor = System.Drawing.Color.Transparent;
-            this.panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel54.Location = new System.Drawing.Point(149, 245);
-            this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(40, 40);
-            this.panel54.TabIndex = 52;
-            this.panel54.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel54.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel54.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel55
-            // 
-            this.panel55.AllowDrop = true;
-            this.panel55.BackColor = System.Drawing.Color.Transparent;
-            this.panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel55.Location = new System.Drawing.Point(197, 245);
-            this.panel55.Name = "panel55";
-            this.panel55.Size = new System.Drawing.Size(40, 40);
-            this.panel55.TabIndex = 53;
-            this.panel55.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel55.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel55.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel56
-            // 
-            this.panel56.AllowDrop = true;
-            this.panel56.BackColor = System.Drawing.Color.Transparent;
-            this.panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel56.Location = new System.Drawing.Point(245, 245);
-            this.panel56.Name = "panel56";
-            this.panel56.Size = new System.Drawing.Size(40, 40);
-            this.panel56.TabIndex = 54;
-            this.panel56.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel56.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel56.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel57
-            // 
-            this.panel57.BackColor = System.Drawing.Color.Transparent;
-            this.panel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel57.Location = new System.Drawing.Point(293, 245);
-            this.panel57.Name = "panel57";
-            this.panel57.Size = new System.Drawing.Size(40, 40);
-            this.panel57.TabIndex = 55;
-            this.panel57.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel57.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel57.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel58
-            // 
-            this.panel58.BackColor = System.Drawing.Color.Transparent;
-            this.panel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel58.Location = new System.Drawing.Point(341, 245);
-            this.panel58.Name = "panel58";
-            this.panel58.Size = new System.Drawing.Size(40, 40);
-            this.panel58.TabIndex = 56;
-            this.panel58.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel58.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel58.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel59
-            // 
-            this.panel59.AllowDrop = true;
-            this.panel59.BackColor = System.Drawing.Color.Transparent;
-            this.panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel59.Location = new System.Drawing.Point(389, 245);
-            this.panel59.Name = "panel59";
-            this.panel59.Size = new System.Drawing.Size(40, 40);
-            this.panel59.TabIndex = 57;
-            this.panel59.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel59.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel59.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel60
-            // 
-            this.panel60.AllowDrop = true;
-            this.panel60.BackColor = System.Drawing.Color.Transparent;
-            this.panel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel60.Location = new System.Drawing.Point(437, 245);
-            this.panel60.Name = "panel60";
-            this.panel60.Size = new System.Drawing.Size(40, 40);
-            this.panel60.TabIndex = 58;
-            this.panel60.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel60.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel60.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel61
-            // 
-            this.panel61.AllowDrop = true;
-            this.panel61.BackColor = System.Drawing.Color.Transparent;
-            this.panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel61.Location = new System.Drawing.Point(5, 293);
-            this.panel61.Name = "panel61";
-            this.panel61.Size = new System.Drawing.Size(40, 40);
-            this.panel61.TabIndex = 59;
-            this.panel61.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel61.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel61.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel62
-            // 
-            this.panel62.AllowDrop = true;
-            this.panel62.BackColor = System.Drawing.Color.Transparent;
-            this.panel62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel62.Location = new System.Drawing.Point(53, 293);
-            this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(40, 40);
-            this.panel62.TabIndex = 60;
-            this.panel62.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel62.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel62.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel63
-            // 
-            this.panel63.AllowDrop = true;
-            this.panel63.BackColor = System.Drawing.Color.Transparent;
-            this.panel63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel63.Location = new System.Drawing.Point(101, 293);
-            this.panel63.Name = "panel63";
-            this.panel63.Size = new System.Drawing.Size(40, 40);
-            this.panel63.TabIndex = 61;
-            this.panel63.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel63.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel63.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel64
-            // 
-            this.panel64.AllowDrop = true;
-            this.panel64.BackColor = System.Drawing.Color.Transparent;
-            this.panel64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel64.Location = new System.Drawing.Point(149, 293);
-            this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(40, 40);
-            this.panel64.TabIndex = 62;
-            this.panel64.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel64.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel64.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel65
-            // 
-            this.panel65.AllowDrop = true;
-            this.panel65.BackColor = System.Drawing.Color.Transparent;
-            this.panel65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel65.Location = new System.Drawing.Point(197, 293);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(40, 40);
-            this.panel65.TabIndex = 63;
-            this.panel65.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel65.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel65.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel66
-            // 
-            this.panel66.AllowDrop = true;
-            this.panel66.BackColor = System.Drawing.Color.Transparent;
-            this.panel66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel66.Location = new System.Drawing.Point(245, 293);
-            this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(40, 40);
-            this.panel66.TabIndex = 64;
-            this.panel66.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel66.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel66.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel67
-            // 
-            this.panel67.AllowDrop = true;
-            this.panel67.BackColor = System.Drawing.Color.Transparent;
-            this.panel67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel67.Location = new System.Drawing.Point(293, 293);
-            this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(40, 40);
-            this.panel67.TabIndex = 65;
-            this.panel67.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel67.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel67.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel68
-            // 
-            this.panel68.AllowDrop = true;
-            this.panel68.BackColor = System.Drawing.Color.Transparent;
-            this.panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel68.Location = new System.Drawing.Point(341, 293);
-            this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(40, 40);
-            this.panel68.TabIndex = 66;
-            this.panel68.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel68.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel68.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel69
-            // 
-            this.panel69.AllowDrop = true;
-            this.panel69.BackColor = System.Drawing.Color.Transparent;
-            this.panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel69.Location = new System.Drawing.Point(389, 293);
-            this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(40, 40);
-            this.panel69.TabIndex = 67;
-            this.panel69.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel69.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel69.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel70
-            // 
-            this.panel70.AllowDrop = true;
-            this.panel70.BackColor = System.Drawing.Color.Transparent;
-            this.panel70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel70.Location = new System.Drawing.Point(437, 293);
-            this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(40, 40);
-            this.panel70.TabIndex = 68;
-            this.panel70.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel70.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel70.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
-            // 
-            // panel71
-            // 
-            this.panel71.AllowDrop = true;
-            this.panel71.BackColor = System.Drawing.Color.Transparent;
-            this.panel71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel71.Location = new System.Drawing.Point(5, 341);
-            this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(40, 40);
-            this.panel71.TabIndex = 69;
-            this.panel71.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel71.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel71.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            this.panel73.AllowDrop = true;
+            this.panel73.BackColor = System.Drawing.Color.Transparent;
+            this.panel73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel73.Location = new System.Drawing.Point(101, 341);
+            this.panel73.Name = "panel73";
+            this.panel73.Size = new System.Drawing.Size(40, 40);
+            this.panel73.TabIndex = 71;
+            this.panel73.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel73.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel73.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
             // panel72
             // 
@@ -1522,18 +1256,274 @@
             this.panel72.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
             this.panel72.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
-            // panel73
+            // panel70
             // 
-            this.panel73.AllowDrop = true;
-            this.panel73.BackColor = System.Drawing.Color.Transparent;
-            this.panel73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel73.Location = new System.Drawing.Point(101, 341);
-            this.panel73.Name = "panel73";
-            this.panel73.Size = new System.Drawing.Size(40, 40);
-            this.panel73.TabIndex = 71;
-            this.panel73.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
-            this.panel73.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
-            this.panel73.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            this.panel70.AllowDrop = true;
+            this.panel70.BackColor = System.Drawing.Color.Transparent;
+            this.panel70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel70.Location = new System.Drawing.Point(437, 293);
+            this.panel70.Name = "panel70";
+            this.panel70.Size = new System.Drawing.Size(40, 40);
+            this.panel70.TabIndex = 68;
+            this.panel70.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel70.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel70.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel69
+            // 
+            this.panel69.AllowDrop = true;
+            this.panel69.BackColor = System.Drawing.Color.Transparent;
+            this.panel69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel69.Location = new System.Drawing.Point(389, 293);
+            this.panel69.Name = "panel69";
+            this.panel69.Size = new System.Drawing.Size(40, 40);
+            this.panel69.TabIndex = 67;
+            this.panel69.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel69.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel69.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel68
+            // 
+            this.panel68.AllowDrop = true;
+            this.panel68.BackColor = System.Drawing.Color.Transparent;
+            this.panel68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel68.Location = new System.Drawing.Point(341, 293);
+            this.panel68.Name = "panel68";
+            this.panel68.Size = new System.Drawing.Size(40, 40);
+            this.panel68.TabIndex = 66;
+            this.panel68.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel68.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel68.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel67
+            // 
+            this.panel67.AllowDrop = true;
+            this.panel67.BackColor = System.Drawing.Color.Transparent;
+            this.panel67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel67.Location = new System.Drawing.Point(293, 293);
+            this.panel67.Name = "panel67";
+            this.panel67.Size = new System.Drawing.Size(40, 40);
+            this.panel67.TabIndex = 65;
+            this.panel67.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel67.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel67.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel66
+            // 
+            this.panel66.AllowDrop = true;
+            this.panel66.BackColor = System.Drawing.Color.Transparent;
+            this.panel66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel66.Location = new System.Drawing.Point(245, 293);
+            this.panel66.Name = "panel66";
+            this.panel66.Size = new System.Drawing.Size(40, 40);
+            this.panel66.TabIndex = 64;
+            this.panel66.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel66.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel66.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel65
+            // 
+            this.panel65.AllowDrop = true;
+            this.panel65.BackColor = System.Drawing.Color.Transparent;
+            this.panel65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel65.Location = new System.Drawing.Point(197, 293);
+            this.panel65.Name = "panel65";
+            this.panel65.Size = new System.Drawing.Size(40, 40);
+            this.panel65.TabIndex = 63;
+            this.panel65.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel65.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel65.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel64
+            // 
+            this.panel64.AllowDrop = true;
+            this.panel64.BackColor = System.Drawing.Color.Transparent;
+            this.panel64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel64.Location = new System.Drawing.Point(149, 293);
+            this.panel64.Name = "panel64";
+            this.panel64.Size = new System.Drawing.Size(40, 40);
+            this.panel64.TabIndex = 62;
+            this.panel64.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel64.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel64.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel63
+            // 
+            this.panel63.AllowDrop = true;
+            this.panel63.BackColor = System.Drawing.Color.Transparent;
+            this.panel63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel63.Location = new System.Drawing.Point(101, 293);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(40, 40);
+            this.panel63.TabIndex = 61;
+            this.panel63.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel63.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel63.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel62
+            // 
+            this.panel62.AllowDrop = true;
+            this.panel62.BackColor = System.Drawing.Color.Transparent;
+            this.panel62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel62.Location = new System.Drawing.Point(53, 293);
+            this.panel62.Name = "panel62";
+            this.panel62.Size = new System.Drawing.Size(40, 40);
+            this.panel62.TabIndex = 60;
+            this.panel62.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel62.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel62.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel61
+            // 
+            this.panel61.AllowDrop = true;
+            this.panel61.BackColor = System.Drawing.Color.Transparent;
+            this.panel61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel61.Location = new System.Drawing.Point(5, 293);
+            this.panel61.Name = "panel61";
+            this.panel61.Size = new System.Drawing.Size(40, 40);
+            this.panel61.TabIndex = 59;
+            this.panel61.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel61.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel61.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel60
+            // 
+            this.panel60.AllowDrop = true;
+            this.panel60.BackColor = System.Drawing.Color.Transparent;
+            this.panel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel60.Location = new System.Drawing.Point(437, 245);
+            this.panel60.Name = "panel60";
+            this.panel60.Size = new System.Drawing.Size(40, 40);
+            this.panel60.TabIndex = 58;
+            this.panel60.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel60.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel60.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel59
+            // 
+            this.panel59.AllowDrop = true;
+            this.panel59.BackColor = System.Drawing.Color.Transparent;
+            this.panel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel59.Location = new System.Drawing.Point(389, 245);
+            this.panel59.Name = "panel59";
+            this.panel59.Size = new System.Drawing.Size(40, 40);
+            this.panel59.TabIndex = 57;
+            this.panel59.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel59.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel59.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel58
+            // 
+            this.panel58.BackColor = System.Drawing.Color.Transparent;
+            this.panel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel58.Location = new System.Drawing.Point(341, 245);
+            this.panel58.Name = "panel58";
+            this.panel58.Size = new System.Drawing.Size(40, 40);
+            this.panel58.TabIndex = 56;
+            this.panel58.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel58.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel58.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel57
+            // 
+            this.panel57.BackColor = System.Drawing.Color.Transparent;
+            this.panel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel57.Location = new System.Drawing.Point(293, 245);
+            this.panel57.Name = "panel57";
+            this.panel57.Size = new System.Drawing.Size(40, 40);
+            this.panel57.TabIndex = 55;
+            this.panel57.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel57.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel57.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel56
+            // 
+            this.panel56.AllowDrop = true;
+            this.panel56.BackColor = System.Drawing.Color.Transparent;
+            this.panel56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel56.Location = new System.Drawing.Point(245, 245);
+            this.panel56.Name = "panel56";
+            this.panel56.Size = new System.Drawing.Size(40, 40);
+            this.panel56.TabIndex = 54;
+            this.panel56.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel56.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel56.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel55
+            // 
+            this.panel55.AllowDrop = true;
+            this.panel55.BackColor = System.Drawing.Color.Transparent;
+            this.panel55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel55.Location = new System.Drawing.Point(197, 245);
+            this.panel55.Name = "panel55";
+            this.panel55.Size = new System.Drawing.Size(40, 40);
+            this.panel55.TabIndex = 53;
+            this.panel55.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel55.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel55.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel54
+            // 
+            this.panel54.BackColor = System.Drawing.Color.Transparent;
+            this.panel54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel54.Location = new System.Drawing.Point(149, 245);
+            this.panel54.Name = "panel54";
+            this.panel54.Size = new System.Drawing.Size(40, 40);
+            this.panel54.TabIndex = 52;
+            this.panel54.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel54.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel54.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel53
+            // 
+            this.panel53.BackColor = System.Drawing.Color.Transparent;
+            this.panel53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel53.Location = new System.Drawing.Point(101, 245);
+            this.panel53.Name = "panel53";
+            this.panel53.Size = new System.Drawing.Size(40, 40);
+            this.panel53.TabIndex = 51;
+            this.panel53.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel53.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel52
+            // 
+            this.panel52.AllowDrop = true;
+            this.panel52.BackColor = System.Drawing.Color.Transparent;
+            this.panel52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel52.Location = new System.Drawing.Point(53, 245);
+            this.panel52.Name = "panel52";
+            this.panel52.Size = new System.Drawing.Size(40, 40);
+            this.panel52.TabIndex = 50;
+            this.panel52.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel52.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel52.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel51
+            // 
+            this.panel51.AllowDrop = true;
+            this.panel51.BackColor = System.Drawing.Color.Transparent;
+            this.panel51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel51.Location = new System.Drawing.Point(5, 245);
+            this.panel51.Name = "panel51";
+            this.panel51.Size = new System.Drawing.Size(40, 40);
+            this.panel51.TabIndex = 49;
+            this.panel51.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel51.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel51.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
+            // 
+            // panel71
+            // 
+            this.panel71.AllowDrop = true;
+            this.panel71.BackColor = System.Drawing.Color.Transparent;
+            this.panel71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel71.Location = new System.Drawing.Point(5, 341);
+            this.panel71.Name = "panel71";
+            this.panel71.Size = new System.Drawing.Size(40, 40);
+            this.panel71.TabIndex = 69;
+            this.panel71.DragDrop += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragDrop);
+            this.panel71.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
+            this.panel71.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
             // panel74
             // 
@@ -2050,6 +2040,7 @@
         private System.Windows.Forms.Panel panel98;
         private System.Windows.Forms.Panel panel99;
         private System.Windows.Forms.Panel panel100;
+
     }
 
    
