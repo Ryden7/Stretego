@@ -12,10 +12,19 @@ namespace StrategoBoardBothPlayers
 {
     public partial class Stratego : Form
     {
-        Board board = new Board();
+        //local storage for count of game pieces
+        private Dictionary<string, int> _bluePlayer = new Dictionary<string, int>();
+        private const string BluePlayer = "Blue Player";
+
+        int counter;
+        Board gameboard = new Board();
         public Stratego()
         {
             InitializeComponent();
+
+            //Setup the local storage for count of game pieces
+            SetupGamePieces();
+
         }
         //The panelChanger event handlers are what control the drag and drop of the system. 
         //With the way that they are designed, you can assign any of these handlers
@@ -40,22 +49,48 @@ namespace StrategoBoardBothPlayers
         private void panelChanger_DragDrop(object sender, DragEventArgs e)
         {
             Panel panelChanger = sender as Panel;
-            if (panelChanger.BackgroundImage == null)
+
+
+         //   SelectedMenuItem item = (SelectedMenuItem)e.Data.GetData(typeof(SelectedMenuItem));
+           // var player = GetPlayerColor(item.SelectedItem);
+            //var gamePiece = GetGamePiece(item.SelectedItem.Name);
+
+
+            if (counter < 80)
             {
-                panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
-                //This is calling the getColor method I will be making
-                string color = getColor(panelChanger);
-                //This calls the getValue method to determine the piece value
-                int pieceValue = getValue(panelChanger);
-                //This calls the board (or the logic) to create the pieces on the back end.
-                board.makePiece(panelChanger.TabIndex + 1, pieceValue, color);
+               // if (!DoPiecesExist(player, gamePiece)) throw new Exception(String.Format("Out of {0}", gamePiece));
+
+                if (panelChanger.BackgroundImage == null)
+                {
+                    panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
+                    gameboard.makePiece(panelChanger.TabIndex + 1);
+                    counter++;
+                }
+                else
+                {
+                    throw (new Exception("Can't do that!"));
+
+                }
             }
+
             else
             {
-                throw (new Exception("Can't do that!"));
-                
+                if (panelChanger.BackgroundImage == null)
+                {
+                    panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
+                    //update position
+                }
+
+                //else fight
+                else
+                {
+
+                }
+
             }
-        }
+
+           }
+
 
         private void generalToolStripMenuItem_MouseDown(object sender, MouseEventArgs e)
         {
@@ -84,5 +119,61 @@ namespace StrategoBoardBothPlayers
 
             return panelValue;     
         }
+
+
+
+        private string GetPlayerColor(ToolStripItem item)
+        {
+            if (item.OwnerItem.Text.Equals(BluePlayer)) return BluePlayer;
+
+            return null;
+        }
+
+
+        private bool DoPiecesExist(string player, string gamePiece)
+        {
+            if (player.Equals(BluePlayer) && _bluePlayer[gamePiece] > 0) return true;
+
+            return false;
+        }
+
+
+        private string GetGamePiece(string itemName)
+        {
+            string gamePiece = String.Empty;
+            switch (itemName)
+            {
+                case "general9ToolStripMenuItem":
+                    gamePiece = "General";
+                    break;
+
+
+            }
+
+            return gamePiece;
+
+        }
+
+        private void AdjustGamePieces(string player, string gamePiece, ToolStripItem item)
+        {
+            int count = 0;
+            if (player.Equals(BluePlayer))
+            {
+                var currVal = _bluePlayer[gamePiece];
+                count = currVal - 1;
+                _bluePlayer[gamePiece] = count;
+
+            }
+
+            item.Text = String.Format("({0}) {1}", count, gamePiece);
+        }
+
+        private void SetupGamePieces()
+        {
+            _bluePlayer.Add("General", 9);
+        }
     }
+
+
 }
+
