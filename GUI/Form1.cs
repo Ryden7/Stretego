@@ -292,6 +292,16 @@ namespace StrategoBoardBothPlayers
             gamehastarted = true;
             if (gamehastarted)
             {
+                foreach (Panel panel in redpanels)
+                {
+                    panel.AllowDrop = true;
+                }
+
+                foreach (Panel panel in bluepanels)
+                {
+                    panel.AllowDrop = true;
+                }
+
                 bluepanels[2].AllowDrop = false;
                 bluepanels[3].AllowDrop = false;
                 bluepanels[6].AllowDrop = false;
