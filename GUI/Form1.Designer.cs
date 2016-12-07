@@ -599,7 +599,6 @@
             // 
             this.panel1.AllowDrop = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego3;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(5, 5);
             this.panel1.Name = "panel1";
@@ -613,7 +612,6 @@
             // 
             this.panel2.AllowDrop = true;
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego3;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Location = new System.Drawing.Point(53, 5);
             this.panel2.Name = "panel2";
@@ -640,7 +638,6 @@
             // 
             this.panel4.AllowDrop = true;
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego2;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Location = new System.Drawing.Point(149, 5);
             this.panel4.Name = "panel4";
@@ -654,7 +651,6 @@
             // 
             this.panel5.AllowDrop = true;
             this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego4;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Location = new System.Drawing.Point(197, 5);
             this.panel5.Name = "panel5";
@@ -668,7 +664,6 @@
             // 
             this.panel6.AllowDrop = true;
             this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego5;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Location = new System.Drawing.Point(245, 5);
             this.panel6.Name = "panel6";
@@ -682,7 +677,6 @@
             // 
             this.panel7.AllowDrop = true;
             this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego6;
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel7.Location = new System.Drawing.Point(293, 5);
             this.panel7.Name = "panel7";
@@ -696,7 +690,6 @@
             // 
             this.panel8.AllowDrop = true;
             this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoF;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Location = new System.Drawing.Point(341, 5);
             this.panel8.Name = "panel8";
@@ -710,7 +703,6 @@
             // 
             this.panel9.AllowDrop = true;
             this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego7;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel9.Location = new System.Drawing.Point(389, 5);
             this.panel9.Name = "panel9";
@@ -724,7 +716,6 @@
             // 
             this.panel10.AllowDrop = true;
             this.panel10.BackColor = System.Drawing.Color.Transparent;
-            this.panel10.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.Stratego8;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Location = new System.Drawing.Point(437, 5);
             this.panel10.Name = "panel10";
@@ -738,7 +729,6 @@
             // 
             this.panel11.AllowDrop = true;
             this.panel11.BackColor = System.Drawing.Color.Transparent;
-            this.panel11.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.stratego9;
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel11.Location = new System.Drawing.Point(5, 53);
             this.panel11.Name = "panel11";
@@ -752,7 +742,6 @@
             // 
             this.panel12.AllowDrop = true;
             this.panel12.BackColor = System.Drawing.Color.Transparent;
-            this.panel12.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoB;
             this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel12.Location = new System.Drawing.Point(53, 53);
             this.panel12.Name = "panel12";
@@ -766,7 +755,6 @@
             // 
             this.panel13.AllowDrop = true;
             this.panel13.BackColor = System.Drawing.Color.Transparent;
-            this.panel13.BackgroundImage = global::StrategoBoardBothPlayers.Properties.Resources.StrategoS;
             this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel13.Location = new System.Drawing.Point(101, 53);
             this.panel13.Name = "panel13";

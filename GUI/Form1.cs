@@ -16,8 +16,11 @@ namespace StrategoBoardBothPlayers
         private Dictionary<string, int> _bluePlayer = new Dictionary<string, int>();
         private const string BluePlayer = "Blue Player";
 
-        int counter;
+        int counter = 1;
         Board gameboard = new Board();
+        int oldLocation;
+        int NewLocation;
+
         public Stratego()
         {
             InitializeComponent();
@@ -37,6 +40,8 @@ namespace StrategoBoardBothPlayers
             {
                 panelChanger.DoDragDrop(panelChanger.BackgroundImage, DragDropEffects.Move);
                 panelChanger.BackgroundImage = null;
+                oldLocation = panelChanger.TabIndex + 1;
+                modifyLocation(oldLocation, NewLocation);
             }
         }
 
@@ -63,8 +68,20 @@ namespace StrategoBoardBothPlayers
                 if (panelChanger.BackgroundImage == null)
                 {
                     panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
-                    gameboard.makePiece(panelChanger.TabIndex + 1);
+                    
+                    if (counter <= 40)
+                    {
+                        gameboard.makePiece(panelChanger.TabIndex + 1, "blue");
+                        
+                    }
+                    else
+                    {
+                        gameboard.makePiece(panelChanger.TabIndex + 1, "red");
+
+                    }
+
                     counter++;
+                    NewLocation = panelChanger.TabIndex + 1;
                 }
                 else
                 {
@@ -78,13 +95,17 @@ namespace StrategoBoardBothPlayers
                 if (panelChanger.BackgroundImage == null)
                 {
                     panelChanger.BackgroundImage = (Image)e.Data.GetData(DataFormats.Bitmap);
+                    NewLocation = panelChanger.TabIndex + 1;
+
                     //update position
+                    modifyLocation(oldLocation, NewLocation);
+                    
                 }
 
                 //else fight
                 else
                 {
-
+                    gameboard.pieceLookup(oldLocation, NewLocation);
                 }
 
             }
@@ -120,8 +141,14 @@ namespace StrategoBoardBothPlayers
             return panelValue;     
         }
 
+        public void modifyLocation(int oldLocation, int newLocation)
+        {
+            gameboard.movePiece(oldLocation, NewLocation);
+        }
 
 
+
+        //Lisa's code
         private string GetPlayerColor(ToolStripItem item)
         {
             if (item.OwnerItem.Text.Equals(BluePlayer)) return BluePlayer;
