@@ -163,6 +163,7 @@
             this.panel98 = new System.Windows.Forms.Panel();
             this.panel99 = new System.Windows.Forms.Panel();
             this.panel100 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -1881,6 +1882,16 @@
             this.panel100.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
             this.panel100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(86, 484);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(154, 66);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Start Game";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.StartGame_MouseClick);
+            // 
             // Stratego
             // 
             this.AllowDrop = true;
@@ -1888,6 +1899,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(891, 587);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
@@ -2040,7 +2052,7 @@
         private System.Windows.Forms.Panel panel98;
         private System.Windows.Forms.Panel panel99;
         private System.Windows.Forms.Panel panel100;
-
+        private System.Windows.Forms.Button button3;
     }
 
    

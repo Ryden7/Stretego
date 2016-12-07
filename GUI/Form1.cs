@@ -79,7 +79,7 @@ namespace StrategoBoardBothPlayers
             // var player = GetPlayerColor(item.SelectedItem);
 
 
-            if (!gamehastarted && counter <= 40)
+            if (!gamehastarted && counter < 40)
             {
                 foreach (Panel panel in redpanels)
                 {
@@ -93,7 +93,7 @@ namespace StrategoBoardBothPlayers
                 bluepanels[7].AllowDrop = false;
             }
 
-            if (!gamehastarted && counter > 40)
+            if (!gamehastarted && counter >= 40)
             {
                 foreach (Panel panel in redpanels)
                 {
@@ -189,33 +189,7 @@ namespace StrategoBoardBothPlayers
 
                         panelChanger.AllowDrop = true;
                     }
-                    /*else
-                    {
-                        otherplayer = gameboard.getPieceByPosition(currentposition - 0);
-
-                        if (otherplayer.getColor() != currentplayer.getColor())
-                        {
-                            gameboard.pieceLookup(oldLocation, NewLocation);
-                        }
-                        else
-                        {
-                            otherplayer = gameboard.getPieceByPosition(currentposition + 11);
-
-                            if (otherplayer.getColor() != currentplayer.getColor())
-                            {
-                                gameboard.pieceLookup(oldLocation, NewLocation);
-                            }
-                            else
-                            {
-                                otherplayer = gameboard.getPieceByPosition(currentposition - 9);
-
-                                if (otherplayer.getColor() != currentplayer.getColor())
-                                {
-                                    gameboard.pieceLookup(oldLocation, NewLocation);
-                                }
-                            }
-                        }
-                    }*/
+                  
                 }
 
             }
@@ -314,8 +288,8 @@ namespace StrategoBoardBothPlayers
             /*the 40 being sent to the gameboard is hardcoded for testing
              *we want to put a counter based on player for this.
              */
-            gamehastarted = gameboard.startGame(true, currentplayer, 40);
-
+            //gamehastarted = gameboard.startGame(true, "Blue", 80); //these values are for testing only.
+            gamehastarted = true;
             if (gamehastarted)
             {
                 bluepanels[2].AllowDrop = false;

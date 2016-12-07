@@ -127,6 +127,9 @@ public class Board
     public Boolean startGame(Boolean YesOrNo, Pieces piece, int PieceCount)
     {
         string color = piece.getColor();
+        //values for testing
+        redready = true;
+        blueready = true;
 
         if (color == "Red")
         {
