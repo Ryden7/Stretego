@@ -51,6 +51,10 @@
       <Project>{8378dad6-d9f4-42d0-8a65-4567ea29b43c}</Project>
       <Name>Pieces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Player\Player.csproj">
+      <Project>{85df5a0c-a50e-42ae-b3f5-d00d761f9faf}</Project>
+      <Name>Player</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

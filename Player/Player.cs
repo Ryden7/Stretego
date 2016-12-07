@@ -9,7 +9,7 @@ public class Player
     private string username;
 
     //this is the private constructor
-    private Player(string name)
+    public Player(string name)
     {
         username = name;
         //String password;  for secure access as of right now 

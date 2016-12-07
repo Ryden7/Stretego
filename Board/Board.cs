@@ -10,12 +10,14 @@ public class Board
     private Pieces[] gameboard; //stores the location and their corresponding pieces
     private Dictionary<int, Pieces> location2piece; //get the piece that is in that location
     int tracker = 1;
+    private Boolean redready;
+    private Boolean blueready;
     //Pieces[] boardPanels = new Pieces[101];
 
     public Board()
     {
         //gameboard = new int[10,10];
-        gameboard = new Pieces[100];
+        gameboard = new Pieces[101];
         location2piece = new Dictionary<int, Pieces>();
 
     }
@@ -37,7 +39,7 @@ public class Board
         gameboard[oldLocation] = null;
     }
 
-    public void pieceLookup(int oldLocation, int newLocation)
+    public int pieceLookup(int oldLocation, int newLocation)
     {
         Pieces attackingPiece;
         Pieces defendingPiece;
@@ -47,12 +49,12 @@ public class Board
 
         if (attackingPiece.getColor().Equals(defendingPiece.getColor())) //same colors No Battle
         {
-            return;
+            return 1;
         }
 
         else if (defendingPiece.getValue().Equals(0))//game over Flag Captured
         {
-            return;
+            return 2;
         }
 
         else if (attackingPiece.getValue().Equals(1) && defendingPiece.getValue().Equals(10)) // spy kills marshall
@@ -64,7 +66,7 @@ public class Board
             location2piece.Remove(defendingPiece.getLocation());
             location2piece.Remove(attackingPiece.getLocation());
             location2piece.Add(defendingPiece.getLocation(), attackingPiece);
-            return;
+            return 3;
 
         }
 
@@ -76,7 +78,7 @@ public class Board
             location2piece.Remove(defendingPiece.getLocation());
             location2piece.Remove(attackingPiece.getLocation());
             location2piece.Add(defendingPiece.getLocation(), attackingPiece);
-            return;
+            return 4;
 
         }
 
@@ -86,7 +88,7 @@ public class Board
             gameboard[attackingPiece.getLocation()] = null;
             location2piece.Remove(defendingPiece.getLocation());
             location2piece.Remove(attackingPiece.getLocation());
-            return;
+            return 5;
         }
 
         else if (attackingPiece.getValue() > defendingPiece.getValue())
@@ -98,7 +100,7 @@ public class Board
                 location2piece.Remove(attackingPiece.getLocation());
                 location2piece.Add(defendingPiece.getLocation(), attackingPiece);
             //add captured piece here.
-            return;
+            return 6;
             }
 
         else if (defendingPiece.getValue() > attackingPiece.getValue())
@@ -107,10 +109,49 @@ public class Board
             gameboard[attackingPiece.getLocation()] = null;
             location2piece.Remove(attackingPiece.getLocation());
             //add captured piece here.
-            return;
+            return 7;
         }
 
+        return 8;
+
     }
+
+    //Simple get pliece possition method.
+    public Pieces getPieceByPosition(int position)
+    {
+        Pieces piece = gameboard[position];
+        return piece;
+    }
+
+    //start game method
+    public Boolean startGame(Boolean YesOrNo, Pieces piece, int PieceCount)
+    {
+        string color = piece.getColor();
+
+        if (color == "Red")
+        {
+            redready = true;
+        }
+
+        if (color == "Blue")
+        {
+            blueready = true;
+        }
+
+        if (PieceCount != 80)
+        {
+            return false;
+        }
+
+        if (blueready == true && redready == true)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+
 
     /*
     public void updateLocation2Piece(int location, Pieces piece)
@@ -119,9 +160,9 @@ public class Board
     }
     */
 
-   
 
-   
+
+
 
     /*
     public int battle(Pieces p1, Pieces p2)//p1 is attacking player 
