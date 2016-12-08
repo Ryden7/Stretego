@@ -20,8 +20,6 @@
             base.Dispose(disposing);
         }
 
-        
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -38,10 +36,10 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.marshalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.general9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.major7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.captain6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.general9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lieutenant5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sergeant4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miner3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -163,7 +161,6 @@
             this.panel98 = new System.Windows.Forms.Panel();
             this.panel99 = new System.Windows.Forms.Panel();
             this.panel100 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -177,8 +174,9 @@
             button1.Size = new System.Drawing.Size(149, 59);
             button1.TabIndex = 2;
             button1.TabStop = false;
-            button1.Text = "   End Turn,   Next player  ";
+            button1.Text = "Start";
             button1.UseVisualStyleBackColor = true;
+          //  button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // richTextBox1
             // 
@@ -234,10 +232,10 @@
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.marshalToolStripMenuItem,
-            this.general9ToolStripMenuItem,
             this.cToolStripMenuItem,
             this.major7ToolStripMenuItem,
             this.captain6ToolStripMenuItem,
+            this.general9ToolStripMenuItem,
             this.lieutenant5ToolStripMenuItem,
             this.sergeant4ToolStripMenuItem,
             this.miner3ToolStripMenuItem,
@@ -256,16 +254,8 @@
             this.marshalToolStripMenuItem.Image = global::StrategoBoardBothPlayers.Properties.Resources.Stratego10;
             this.marshalToolStripMenuItem.Name = "marshalToolStripMenuItem";
             this.marshalToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.marshalToolStripMenuItem.Text = "(10) Marshal";
+            this.marshalToolStripMenuItem.Text = "(10) Marshal ";
             this.marshalToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
-            // 
-            // general9ToolStripMenuItem
-            // 
-            this.general9ToolStripMenuItem.Image = global::StrategoBoardBothPlayers.Properties.Resources.stratego9;
-            this.general9ToolStripMenuItem.Name = "general9ToolStripMenuItem";
-            this.general9ToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.general9ToolStripMenuItem.Text = "(9) General ";
-            this.general9ToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
             // 
             // cToolStripMenuItem
             // 
@@ -290,6 +280,14 @@
             this.captain6ToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.captain6ToolStripMenuItem.Text = "(6) Captain 4 of 4";
             this.captain6ToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
+            // 
+            // general9ToolStripMenuItem
+            // 
+            this.general9ToolStripMenuItem.Image = global::StrategoBoardBothPlayers.Properties.Resources.stratego9;
+            this.general9ToolStripMenuItem.Name = "general9ToolStripMenuItem";
+            this.general9ToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.general9ToolStripMenuItem.Text = "(9) General ";
+            this.general9ToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
             // 
             // lieutenant5ToolStripMenuItem
             // 
@@ -344,7 +342,7 @@
             this.bombToolStripMenuItem.Image = global::StrategoBoardBothPlayers.Properties.Resources.StrategoB;
             this.bombToolStripMenuItem.Name = "bombToolStripMenuItem";
             this.bombToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.bombToolStripMenuItem.Text = "Bomb";
+            this.bombToolStripMenuItem.Text = "Bomb 6 of 6";
             this.bombToolStripMenuItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
             // 
             // toolStripDropDownButton2
@@ -462,7 +460,8 @@
             this.bombToolStripMenuItem1.Image = global::StrategoBoardBothPlayers.Properties.Resources.strategoBRed;
             this.bombToolStripMenuItem1.Name = "bombToolStripMenuItem1";
             this.bombToolStripMenuItem1.Size = new System.Drawing.Size(179, 22);
-            this.bombToolStripMenuItem1.Text = "Bomb";
+            this.bombToolStripMenuItem1.Text = "Bomb 6 of 6";
+         //   this.bombToolStripMenuItem1.Click += new System.EventHandler(this.bombToolStripMenuItem1_Click);
             this.bombToolStripMenuItem1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.generalToolStripMenuItem_MouseDown);
             // 
             // tableLayoutPanel1
@@ -1882,16 +1881,6 @@
             this.panel100.DragEnter += new System.Windows.Forms.DragEventHandler(this.panelChanger_DragEnter);
             this.panel100.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelChanger_MouseDown);
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(86, 484);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(154, 66);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Start Game";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.StartGame_MouseClick);
-            // 
             // Stratego
             // 
             this.AllowDrop = true;
@@ -1899,7 +1888,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(891, 587);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
@@ -2052,7 +2040,6 @@
         private System.Windows.Forms.Panel panel98;
         private System.Windows.Forms.Panel panel99;
         private System.Windows.Forms.Panel panel100;
-        private System.Windows.Forms.Button button3;
     }
 
    
