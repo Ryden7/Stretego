@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pieces", "Pieces\Pieces.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategoBoardBothPlayers", "GUI\StrategoBoardBothPlayers.csproj", "{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logIn", "logIn\logIn.csproj", "{C0720157-D916-4419-8136-8DD4FCB0187F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62F5B3BB-21ED-4AF8-9B9F-FDF624E395A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0720157-D916-4419-8136-8DD4FCB0187F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0720157-D916-4419-8136-8DD4FCB0187F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0720157-D916-4419-8136-8DD4FCB0187F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0720157-D916-4419-8136-8DD4FCB0187F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
