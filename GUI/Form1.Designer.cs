@@ -179,6 +179,7 @@
             button1.TabStop = false;
             button1.Text = "   End Turn,   Next player  ";
             button1.UseVisualStyleBackColor = true;
+            button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ChangePlayer_MouseClick);
             // 
             // richTextBox1
             // 

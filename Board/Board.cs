@@ -154,8 +154,6 @@ public class Board
         return false;
     }
 
-
-
     /*
     public void updateLocation2Piece(int location, Pieces piece)
     {
